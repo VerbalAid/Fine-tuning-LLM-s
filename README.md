@@ -1,9 +1,9 @@
-```markdown
-# Fine-tuning Large Language Models
+
+### Fine-tuning Large Language Models
 
 This repository contains materials and code examples from the "Fine-tuning Large Language Models" course by [deeplearning.ai](https://www.deeplearning.ai/). It covers key concepts and practical implementations for fine-tuning large language models with comprehensive examples and demonstrations.
 
-## Course Overview
+### Course Overview
 
 The course is structured into several segments, each highlighting important aspects of the fine-tuning process:
 
@@ -17,7 +17,7 @@ The course is structured into several segments, each highlighting important aspe
 - **Considerations on Getting Started (4 mins)**: Advice for newcomers to the field
 - **Conclusion (1 min)**: Summary and final thoughts
 
-## Repository Structure
+### Repository Structure
 
 ```
 .
