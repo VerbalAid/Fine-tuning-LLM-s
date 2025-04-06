@@ -1,3 +1,4 @@
+```markdown
 # Fine-tuning Large Language Models
 
 This repository contains materials and code examples from the "Fine-tuning Large Language Models" course by [deeplearning.ai](https://www.deeplearning.ai/). It covers key concepts and practical implementations for fine-tuning large language models with comprehensive examples and demonstrations.
@@ -17,3 +18,77 @@ The course is structured into several segments, each highlighting important aspe
 - **Conclusion (1 min)**: Summary and final thoughts
 
 ## Repository Structure
+
+```
+.
+├── data_preparation/              # Data preparation scripts and notebooks
+├── training/                      # Training code and examples
+├── evaluation/                    # Evaluation utilities and metrics
+├── examples/                      # Example datasets and use cases
+├── notebooks/                     # Jupyter notebooks with tutorials
+└── README.md                      # This file
+```
+
+## Getting Started
+
+### Prerequisites
+
+- Python 3.7+
+- PyTorch or TensorFlow
+- Transformers library by Hugging Face
+- Additional libraries as specified in the `requirements.txt` file
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/yourusername/finetuning-llm.git
+   cd finetuning-llm
+   ```
+
+2. Install the required packages:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+## Key Topics Covered
+
+### Data Preparation
+
+- Tokenization strategies for different model architectures
+- Handling long sequences with padding and truncation
+- Creating instruction datasets with appropriate formatting
+- Test/train splits for evaluation
+
+### Training Process
+
+- Setting up model configuration for fine-tuning
+- Training arguments and hyperparameter selection
+- Managing GPU resources during training
+- Saving and loading model checkpoints
+
+### Evaluation and Iteration
+
+- Metrics for evaluating model performance
+- Comparing base models with fine-tuned versions
+- Iterative improvement techniques
+- Using benchmarks like ARC for standardized evaluation
+
+## Code Examples
+
+The repository includes code for:
+- Loading and preprocessing datasets
+- Fine-tuning models using Transformers library
+- Running inference with fine-tuned models
+- Evaluation against standard benchmarks
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- [deeplearning.ai](https://www.deeplearning.ai/) for creating the original course
+- Hugging Face for their Transformers library
+- Lamini for the model runner and training infrastructure
+```
